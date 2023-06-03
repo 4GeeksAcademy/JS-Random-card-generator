@@ -1,1 +1,47 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+  margin: 0px;
+}
+
+.card {
+  background-color: white;
+  height: 400px;
+  width: 270px;
+  margin: 20px;
+  border-radius: 10 px;
+  border-color: black;
+  box-shadow: 15px, black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.randomSuit {
+  align-self: flex-start;
+  font-size: 70px;
+  font-weight: 500;
+  padding: 12px;
+}
+
+.randomSuitTwo {
+  align-self: flex-end;
+  font-size: 70px;
+  font-weight: 500;
+  padding: 12px;
+  transform: rotate(180deg);
+}
+
+#randomNumber {
+  font-size: 94px;
+  font-weight: 400;
+  align-self: center;
+}
+
+#button {
+  background-color: yellow;
+  color: black;
+  font-weight: 400;
+  padding: 3px;
+  margin-left: 20px;
+}
